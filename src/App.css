@@ -1,6 +1,10 @@
-*
-{
+* {
     padding: 0;
     margin: 0;
+    font-family: Copperplate Gothic;
+    scroll-behavior: smooth;
 }
 
+p {
+    font-family: didot;
+}

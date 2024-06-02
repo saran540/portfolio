@@ -9,14 +9,10 @@
 .landingPageAbout
 {
     height: 93vh;
+    width: 35vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.landingPageAbout .aboutContainer
-{
-    
 }
 
 .landingPageAbout .aboutContainer h3
@@ -28,11 +24,6 @@
 .landingPageAbout .aboutContainer h3 span
 {
     font-size: 68px;
-}
-
-.landingPageAbout .aboutContainer p
-{
-
 }
 
 .landingPageImage

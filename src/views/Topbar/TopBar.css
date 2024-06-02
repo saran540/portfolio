@@ -1,27 +1,26 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgba(255, 255, 255);
 }
 
-.topBarContainer
-{
+.topBarContainer {
     display: flex;
     justify-content: space-between;
-    max-height: 7vh;
+    height: 7vh;
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.rightContainer
-{
+.rightContainer {
     display: flex;
     justify-content: space-around;
     width: 20vw;
     align-items: center;
 }
 
-.rightContainer button
-{
+.rightContainer button {
     height: 4vh;
     min-width: 5vw;
     border-radius: 10px;
@@ -29,13 +28,12 @@
     background-color: transparent;
 }
 
-.rightContainer button:hover
-{
-    border: 1px solid rgba(0, 0, 0,0.5);
+.rightContainer button:hover {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.rightContainer button a
-{
-    color: black;
+.rightContainer button a {
+    color: #102C57;
     text-decoration: none;
 }

@@ -1,0 +1,42 @@
+.aboutContentContainer {
+    margin: 0 3%;
+    padding: 1% 5%;
+    background-color: #5c636e;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutTitle {
+    background-color: transparent;
+    color: white;
+}
+
+hr {
+    border-top: 2px solid orange;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 5%;
+    margin: 12px 0;
+    background-color: transparent;
+}
+
+.contentContainer {
+    margin: 2% 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents {
+    background-color: transparent;
+    width: 93%;
+}
+
+
+.contentContainer p {
+    background-color: transparent;
+    color: white;
+    font-size: 16.5px;
+    line-height: 24px;
+}

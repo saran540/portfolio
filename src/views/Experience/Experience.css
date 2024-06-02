@@ -1,0 +1,34 @@
+.experiences {
+    margin: 0 3%;
+    padding: 1% 5%;
+    background-color: #5c636e;
+    display: flex;
+    flex-direction: column;
+}
+
+.experiences .title {
+    background-color: transparent;
+    color: white;
+}
+
+.experiencesContainer {
+    margin: 5% 2%;
+    background-color: transparent;
+}
+
+.experienceContainer {
+    margin: 2%;
+    padding: 0 5%;
+    border-left: 2px solid white;
+    background-color: transparent;
+    display: flex;
+}
+
+.experienceCircle {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: -7%;
+}
