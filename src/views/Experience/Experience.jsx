@@ -10,32 +10,60 @@ function Experience() {
             location: "Chennai , Tamil Nadu",
             role: "Associate Backend Engineer",
             duration: "October 2023 - Present",
-            description1: "My technical skillset goes beyond traditional web development. I possess experience with cloud platform migrations and data management. This includes analyzing the runtime migration path from Java 8 to Java 17 for App Engine, migrating a servlet application to Spring Boot, and developing a client-requested API using Servlets to facilitate data migration from Datastore to BigQuery. Furthermore, I leveraged Google AppScript for data migration, showcasing my scripting proficiency and ability to tackle complex tasks. My extensive experience with Google Cloud Platform involves managing and optimizing workflows on BigQuery, Datastore, GCS Bucket, Cloud Scheduler, Cron Jobs, and Cloud Functions. I have a proven track record of deploying versions on Google App Engine using Google Shell, ensuring system efficiency and reliability. Finally, I prioritize knowledge transfer and maintainability by meticulously documenting project processes. This focus on streamlining onboarding for future developers and reducing project dependencies by 20-25% highlights my commitment to collaboration and efficient project management.",
-            description2: "Possess a strong foundation in problem-solving and user experience. This is evident in my ability to effectively resolve client-reported service tickets in ServiceNow and implement user-requested features in Angular. For instance, I developed a solution for copying schedules from the current day to past days, enhancing user flexibility and productivity. My expertise extends to full-stack development as well, where I have contributed to bug fixing and feature enhancements in internal products using React and Material UI. This work resulted in a measurable improvement of over 10% in product stability and user experience, demonstrating my commitment to delivering high-quality solutions."
+            description: [
+                "Possess extensive technical expertise in web development, cloud platform migrations, and data management.",
+                "Analyzed and executed the runtime migration path from Java 8 to Java 17 for App Engine, and migrated a servlet application to Spring Boot, enhancing performance and maintainability.",
+                "Developed a client- requested API using Servlets for seamless data migration from Datastore to BigQuery and leveraged Google AppScript for complex data migration tasks.",
+                "Managed and optimized workflows on Google Cloud Platform services including BigQuery, Datastore, GCS Bucket, Cloud Scheduler, Cron Jobs, and Cloud Functions, ensuring system efficiency and reliability through deployments on Google App Engine using Google Shell.",
+                "Prioritized knowledge transfer by meticulously documenting project processes, streamlining onboarding for future developers, and reducing project dependencies by 20 - 25 %.",
+                "Demonstrated strong problem - solving skills and user experience focus by effectively resolving client - reported service tickets in ServiceNow and implementing user - requested features in Angular, enhancing flexibility and productivity.",
+                "Contributed to full - stack development, including bug fixing and feature enhancements in internal products using React and Material UI, resulting in over a 10 % improvement in product stability and user experience.",
+                "Committed to continuous learning and professional growth, actively seeking opportunities to expand knowledge and deliver high - quality, cutting - edge solutions."
+            ]
         },
         {
             company: "Inmakes Infotech Private Limited",
             location: "Kochi, Kerala",
             role: "Java Full Stack Intern",
             duration: "April 2023 - July 2023",
-            description1: "I possess a strong foundation in core development technologies, including Java, SQL, JDBC, and server-side development with Servlets on Tomcat. My front-end expertise encompasses HTML, CSS, and a comprehensive understanding of various JavaScript concepts. This well-rounded skillset allows me to effectively tackle web development projects from the ground up. For instance, I have leveraged my understanding of relational databases(SQL) and database access(JDBC) to design and implement data persistence layers for web applications.Additionally, I have utilized Java Servlets on Tomcat to create dynamic web pages that interact with databases, showcasing my proficiency in server- side development.",
-            description2: "Technical knowledge extends beyond core technologies. I possess a proficient understanding of popular Java frameworks like Hibernate, Spring, and Spring Boot. This allows me to streamline development processes and build robust, scalable web applications. Furthermore, I have hands- on experience in both front - end and back - end development.This includes contributing to feature development across various layers of a web application.For example, I have implemented user interfaces using HTML, CSS, and JavaScript, ensuring a user - friendly experience.Additionally, I have participated in back - end development tasks, utilizing Java and frameworks to handle server - side logic and data processing."
+            description: [
+                "Strong foundation in core development technologies including Java, SQL, JDBC, and server - side development with Servlets on Tomcat.",
+                "Expertise in front- end technologies such as HTML, CSS, and comprehensive JavaScript concepts, enabling effective web development from the ground up.",
+                "Designed and implemented data persistence layers for web applications using relational databases(SQL) and database access(JDBC).",
+                "Proficient in creating dynamic web pages that interact with databases using Java Servlets on Tomcat, demonstrating server- side development skills.",
+                "In - depth understanding of popular Java frameworks like Hibernate, Spring, and Spring Boot, streamlining development processes for robust, scalable web applications.",
+                "Hands - on experience in both front - end and back - end development, contributing to feature development across various layers of web applications.",
+                "Implemented user interfaces using HTML, CSS, and JavaScript to ensure user-friendly experiences.",
+                "Participated in back - end development tasks, utilizing Java and frameworks to handle server - side logic and data processing, showcasing versatility in web development."
+            ]
         },
         {
             company: "Skill Safari",
             location: "Coimbatore , Tamil Nadu",
             role: "Program Manager Intern",
             duration: "January 2023 - April 2023",
-            description1: "Leveraged my understanding of web development principles to create high-quality content and sample projects that supported the HTML and CSS team. This involved tasks like crafting compelling website copy, designing user interfaces, and developing interactive prototypes. Contributing to these projects fostered my skills in content creation, product design, and project management.",
-            description2: "Beyond technical skills, my leadership abilities were instrumental in guiding the team towards successful project completion.  I effectively oversaw assignments, monitored team progress, and identified strengths and areas for improvement within individual team members. This involved providing constructive feedback and mentorship, fostering a positive and productive work environment. Furthermore, I served as a communication bridge between team members and clients.I efficiently allocated tasks based on individual strengths and skillsets, ensuring everyone was contributing their best work.Additionally, I provided timely updates and clear guidance throughout project lifecycles, maintaining client satisfaction and project focus."
+            description: [
+                "Leveraged web development principles to create high - quality content and sample projects, supporting the HTML and CSS team.",
+                "Crafted compelling website copy, designed user interfaces, and developed interactive prototypes to enhance content creation, product design, and project management skills.",
+                "Demonstrated leadership by guiding the team to successful project completion, overseeing assignments, monitoring progress, and identifying strengths and areas for improvement.",
+                "Provided constructive feedback and mentorship, fostering a positive and productive work environment.",
+                "Acted as a communication bridge between team members and clients, ensuring efficient task allocation based on individual strengths and skillsets.",
+                "Maintained client satisfaction and project focus through timely updates and clear guidance throughout project lifecycles."
+            ]
         },
         {
             company: "Zoho Corporation Private Limited",
             location: "Chennai, Tamil Nadu",
             role: "Web Development - Summer Intern",
             duration: "May 2022",
-            description1: "Possess a well-rounded understanding of full-stack development, demonstrated by my work on a web application.  I independently developed a back-end model in Java to handle core functionalities like data creation, deletion, updating, and email transfer. This model ensured efficient data management and interaction with the front-end components. Furthermore, I leveraged my knowledge of HTML and CSS to seamlessly integrate the back- end model with a user - friendly interface.This involved crafting the visual elements and ensuring smooth interaction between the user and the back - end functionalities.",
-            description2: "Throughout this project, I had the valuable opportunity to collaborate with seasoned professionals, gaining invaluable insights into both back-end and front-end development processes. Witnessing the full development lifecycle firsthand allowed me to enhance my understanding of how different components work together to create a complete web application. This experience solidified my foundation in full-stack development and fostered my ability to contribute to complex projects."
+            description: [
+                "Developed a comprehensive web application, showcasing full - stack development skills.",
+                "Independently created a back - end model in Java to handle core functionalities like data creation, deletion, updating, and email transfer, ensuring efficient data management.",
+                "Integrated the back - end model with a user- friendly interface using HTML and CSS, crafting visual elements and ensuring smooth interaction between the user and back - end functionalities.",
+                "Collaborated with seasoned professionals, gaining valuable insights into both back - end and front - end development processes.",
+                "Witnessed the full development lifecycle, enhancing understanding of how different components work together to create a complete web application.",
+                "Solidified foundation in full - stack development, fostering the ability to contribute to complex projects."
+            ]
         }
     ]
 
@@ -70,9 +98,11 @@ function Experience() {
                                 </Box>
                             </Box>
                             <Box className="experienceContentContainer">
-                                <p>{experience.description1}</p>
-
-                                <p>{experience.description2}</p>
+                                <ul>
+                                    {experience.description.map(bullet => (
+                                        <li><p>{bullet}</p></li>
+                                    ))}
+                                </ul>
                             </Box>
                         </Box>
                     </Box>

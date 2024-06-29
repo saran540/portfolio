@@ -41,6 +41,15 @@
 
 .contents {
     padding: 2%;
-    background-color: white;
+    background-color: rgb(246, 246, 246);
     border-radius: 5px;
+}
+
+.experienceContentContainer {
+    text-align: justify;
+    margin: 0 3%;
+}
+
+.experienceContentContainer ul li {
+    margin: 5px 0;
 }

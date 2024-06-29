@@ -3,6 +3,7 @@ import "../Contact/Contact.css";
 import Instagram_logo from "../../assets/images/Instagram_logo.png";
 import LinkedIn_logo from "../../assets/images/LinkedIn_logo.png";
 import Gmail_logo from "../../assets/images/Gmail_logo.png";
+import GitHub_logo from "../../assets/images/GitHub_logo.png"
 
 function Contact() {
     return (
@@ -25,6 +26,7 @@ function Contact() {
                             <Box>
                                 <a href="https://www.linkedin.com/in/saransureshkumar/"
                                     target="_blank"
+                                    title="LinkedIn"
                                 ><img
                                         src={LinkedIn_logo}
                                         alt="Linkedin"
@@ -34,6 +36,7 @@ function Contact() {
                             </Box>
                             <Box class="gmail">
                                 <a href="mailto:saran.sureshkumar.02@gmail.com"
+                                    title="Gmail"
                                 ><img
                                         src={Gmail_logo}
                                         alt="Gmail"
@@ -43,10 +46,22 @@ function Contact() {
                             <Box class="insta">
                                 <a href="https://www.instagram.com/s_a_r_a_n_._s/"
                                     target="_blank"
+                                    title="Instagram"
                                 ><img
                                         src={Instagram_logo}
-                                        alt=""
+                                        alt="Instagram"
                                         style={{ width: "34px", height: "34px" }}
+                                    /></a>
+                            </Box>
+                            <Box>
+                                <a href="https://github.com/saran540"
+                                    target="_blank"
+                                    title="Github"
+                                ><img
+                                        src={GitHub_logo}
+                                        alt="GitHub"
+                                        width="50px"
+                                        style={{ height: "34px", width: "34px" }}
                                     /></a>
                             </Box>
                         </Box>
