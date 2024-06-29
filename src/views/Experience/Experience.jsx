@@ -43,6 +43,7 @@ function Experience() {
     return (
         <Box className="experiences">
             <h1 className="title">Experiences</h1>
+            <hr />
             <Box className="experiencesContainer">
                 {experiences.map(experience => (
                     <Box className="experienceContainer">
@@ -67,7 +68,6 @@ function Experience() {
                                         <h3>{experience.location}</h3>
                                     </Box>
                                 </Box>
-
                             </Box>
                             <Box className="experienceContentContainer">
                                 <p>{experience.description1}</p>

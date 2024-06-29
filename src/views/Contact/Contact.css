@@ -1,0 +1,27 @@
+.container {
+    padding: 10px 10%;
+}
+
+.icons {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+}
+
+.gmail {
+    margin-left: 20px;
+}
+
+.insta {
+    margin-left: 20px;
+}
+
+.contactleft {
+    width: max-content;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

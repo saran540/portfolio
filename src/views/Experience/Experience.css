@@ -12,7 +12,7 @@
 }
 
 .experiencesContainer {
-    margin: 5% 2%;
+    margin: 2% 2%;
     background-color: transparent;
 }
 
@@ -30,5 +30,17 @@
     background-color: white;
     border-radius: 50%;
     position: relative;
-    left: -7%;
+    left: -7.1%;
+}
+
+.experienceTitleContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.contents {
+    padding: 2%;
+    background-color: white;
+    border-radius: 5px;
 }
