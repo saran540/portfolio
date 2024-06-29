@@ -1,13 +1,10 @@
-
-.landingPage
-{
+.landingPage {
     display: flex;
     justify-content: space-between;
     margin: 0 10vw;
 }
 
-.landingPageAbout
-{
+.landingPageAbout {
     height: 93vh;
     width: 35vw;
     display: flex;
@@ -15,26 +12,23 @@
     justify-content: center;
 }
 
-.landingPageAbout .aboutContainer h3
-{
+.landingPageAbout .aboutContainer h3 {
     font-size: 42px;
     font-weight: 100;
 }
 
-.landingPageAbout .aboutContainer h3 span
-{
+.landingPageAbout .aboutContainer h3 span {
     font-size: 68px;
+    white-space: nowrap;
 }
 
-.landingPageImage
-{
+.landingPageImage {
     height: 93vh;
     display: flex;
     align-items: center;
 }
 
-.landingPageImage .imageContainer
-{
+.landingPageImage .imageContainer {
     width: 300px;
     height: 350px;
     background-image: url("../../assets/images/Saran_S.jpg");
@@ -46,10 +40,43 @@
 }
 
 @keyframes profileAnimate {
-    0%, 100%{
+
+    0%,
+    100% {
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
-    50%{
+
+    50% {
         border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .landingPageAbout .aboutContainer h3 span {
+        font-size: 68px;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .landingPage {
+        display: flex;
+        flex-direction: column;
+        max-height: 93vh;
+    }
+
+    .landingPageAbout {
+        height: 33vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .landingPageImage {
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
